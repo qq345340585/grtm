@@ -46,7 +46,7 @@ func (gm *GrManager) NewLoopGoroutine(name string, fc interface{}, args ...inter
 					}
 				}
 			default:
-				fmt.Println("no signal")
+				//fmt.Println("no signal")
 			}
 
 			if len(args) > 1 {
